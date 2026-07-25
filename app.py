@@ -709,7 +709,7 @@ def main():
             st.plotly_chart(fig, use_container_width=True)
 
             st.warning(
-                "**Medical Disclaimer:** This tool is an AI diagnostic assistance prototype and should not be used as a sole basis for clinical diagnosis. Please consult a licensed ophthalmologist."
+                "**Medical Disclaimer:** This tool is an AI diagnostic assistance prototype developed by AI Er. Gajendra Sahani and should not be used as a sole basis for clinical diagnosis. Please consult a licensed ophthalmologist."
             )
     else:
         st.markdown(
